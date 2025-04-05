@@ -9,3 +9,18 @@
   width: 95vw;
   margin: 0 auto;
 }
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  .tag {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .name {
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}
