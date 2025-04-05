@@ -1,26 +1,26 @@
 .main {
-	width: 95vw;
-	margin: 0 auto;
-	.main-container {
-		margin-top: 15px;
-		display: grid;
-		grid-template-columns:
-			minmax(150px, 400px)
-			1fr
-			minmax(150px, 400px);
-		gap: 20px;
+  width: 95vw;
+  margin: 0 auto;
+  .main-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns:
+      minmax(150px, 400px)
+      1fr
+      minmax(150px, 400px);
+    gap: 20px;
 
-		.container-posts {
-			font-family: 'Montserrat';
-			margin-bottom: 100px;
+    .container-posts {
+      font-family: "Montserrat";
+      margin-bottom: 100px;
 
-			display: flex;
-			flex-direction: column;
-			gap: 15px;
-		}
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
 
-		.contianer-Contact {
-			font-family: 'Montserrat';
-		}
-	}
+    .contianer-Contact {
+      font-family: "Montserrat";
+    }
+  }
 }

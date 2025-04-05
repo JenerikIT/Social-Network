@@ -1,82 +1,94 @@
 .profile {
-	height: max-content;
+  height: max-content;
 
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	color: white;
-	font-family: 'Montserrat';
-	background-color: #1a1a2e;
-	border-radius: 20px;
-	position: relative;
-	padding: 70px 15px 15px 15px;
-	.backProfile {
-		position: absolute;
-		top: 20px;
-		right: 0;
-		left: 0;
-		width: 90%;
-		margin: 0 auto;
-		z-index: 0;
-	}
-	&__logo {
-		margin-bottom: 17px;
-		z-index: 1;
-	}
-	&__title {
-		display: flex;
-		align-items: center;
-		gap: 16px;
-		span {
-			font-size: 24px;
-			font-weight: 500;
-		}
-	}
-	&__full-name {
-		color: #969696;
-		margin-bottom: 20px;
-		font-size: 18px;
-		font-weight: 500;
-	}
-	&__desc-more {
-		text-align: center;
-		width: 330px;
-		color: white;
-		font-size: 18px;
-		margin-bottom: 30px;
-	}
-	.profile-info {
-		display: flex;
-		align-items: center;
-		gap: 35px;
-		&__item {
-			display: flex;
-			flex-direction: column;
-			gap: 5px;
-			text-align: center;
-			.title {
-				font-size: 22px;
-				color: white;
-				font-weight: 600;
-			}
-			.descriprion {
-				font-size: 14px;
-				font-weight: 600;
-				color: #969696;
-				margin-bottom: 30px;
-			}
-		}
-	}
-	&__button {
-		padding: 10px 117px;
-		color: white;
-		font-size: 16px;
-		font-weight: 700;
-		background-color: #8488ff;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: max-content;
-		border-radius: 30px;
-	}
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Montserrat";
+  background-color: #1a1a2e;
+  border-radius: 20px;
+  position: relative;
+  padding: 70px 15px 15px 15px;
+  .backProfile {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  &__logo {
+    margin-bottom: 17px;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    span {
+      font-size: 24px;
+      font-weight: 500;
+      @media (max-width: 1710px) {
+        font-size: 22px;
+      }
+    }
+  }
+  &__full-name {
+    color: #969696;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    @media (max-width: 1710px) {
+      font-size: 17px;
+    }
+  }
+  &__desc-more {
+    text-align: center;
+    width: 330px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    @media (max-width: 1710px) {
+      font-size: 17px;
+    }
+  }
+  .profile-info {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      text-align: center;
+      .title {
+        font-size: 22px;
+        color: white;
+        font-weight: 600;
+        @media (max-width: 1710px) {
+          font-size: 20px;
+        }
+      }
+      .descriprion {
+        font-size: 14px;
+        font-weight: 600;
+        color: #969696;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  &__button {
+    padding: 10px 117px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #8488ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    border-radius: 30px;
+
+  }
 }
