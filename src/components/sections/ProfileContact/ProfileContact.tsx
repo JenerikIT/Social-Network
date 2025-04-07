@@ -1,18 +1,21 @@
-import user from '../../../assets/img/user.svg'
-import './ContactList.scss'
+import './ProfileContact.scss'
 
-const ContactList = () => {
+const ProfileContact = () => {
 	return (
-		<div className='Contact'>
-			<div className='title'>Contact’s</div>
-			<div className='users'>
-				{Array.from({ length: 5 }).map((_, index) => (
-					<div className='Contact-user' key={index}>
+		<div className='profile__contact'>
+			<div className='title'>People</div>
+			<div className='contact-list'>
+				{Array.from({ length: 1 }).map((_, index) => (
+					<div className='contact' key={index}>
 						<div className='byUsers'>
-							<img src={user} alt='userLogo' />
+							<img
+								src='https://lastfm.freetls.fastly.net/i/u/ar0/3433be7a4441f75679b75a1874df753c.png'
+								alt='userLogo'
+								width={40}
+							/>
 							<div className='name'>
-								Магомед Рамазанов <br />
-								<p>like you post</p>
+								Bricsy <br />
+								<p>Devops</p>
 							</div>
 						</div>
 
@@ -42,4 +45,4 @@ const ContactList = () => {
 	)
 }
 
-export default ContactList
+export default ProfileContact

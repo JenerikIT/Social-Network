@@ -1,4 +1,4 @@
-.Contact {
+.profile__contact {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
@@ -7,15 +7,15 @@
 		color: white;
 		font-weight: 600;
 	}
-	.users {
+	.contact-list {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: start;
-		gap: 20px;
+		gap: 10px;
 		margin-top: 20px;
 		margin-bottom: 48px;
-		.Contact-user {
+		.contact {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -41,6 +41,10 @@
 							font-size: 13px;
 						}
 					}
+				}
+
+				img {
+					border-radius: 50%;
 				}
 			}
 			&__logo {
