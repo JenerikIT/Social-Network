@@ -1,3 +1,4 @@
+import UserHistory from '../UserHistory/UserHistory'
 import './UserProfile.scss'
 
 const UserProfile = () => {
@@ -64,6 +65,7 @@ const UserProfile = () => {
 						</div>
 					</div>
 				</div>
+				<UserHistory type='circle' />
 				<hr />
 				<div className='user__info-about'>
 					<span className='user__info-about-title'>About Me</span>
